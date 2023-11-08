@@ -9,6 +9,7 @@ public class EntryPoint : MonoBehaviour
 
     [SerializeField] private UILocator uiLocator;
     [SerializeField] private ErrorSystem errorSystem;
+    [SerializeField] private MovementSystem movementSystem;
     private void Start()
     {
         Setup();
@@ -21,6 +22,7 @@ public class EntryPoint : MonoBehaviour
         uiLocator.Setup(eventBus);
         errorSystem.Setup(eventBus);
         checkboxManager = new CheckboxManager(eventBus);
+        movementSystem.Setup(eventBus);
     }
 
    

@@ -15,6 +15,9 @@ public class UILocator
     [SerializeField] private Button buttonON;
     [SerializeField] private Button buttonOFF;
 
+    [SerializeField] private CustomButton buttonForward;
+    [SerializeField] private CustomButton buttonBack;
+
 
     public void Setup(EventBus eventBus)
     {
@@ -31,6 +34,8 @@ public class UILocator
         buttonON.onClick.AddListener(CheckboxOn);
         buttonOFF.onClick.AddListener(CheckBoxOff);
         CheckboxOn();
+        buttonForward.Setup(eventBus);
+        buttonBack.Setup(eventBus);
     }
 
 

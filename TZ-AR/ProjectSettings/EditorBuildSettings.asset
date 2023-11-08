@@ -8,9 +8,15 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/BlankAR.unity
     guid: 6bdce89659816455b9f906fc62d19910
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Test.unity
     guid: 3ec8116f5ba802043aac4fbfe79fc054
+  - enabled: 0
+    path: Assets/Scenes/TestPositionAndRotation.unity
+    guid: 33d8d0e478d44014bb281399c3bf9cb3
+  - enabled: 1
+    path: Assets/Scenes/TestCreateAirPlane.unity
+    guid: 8150ce9aefeec6c4190f0089916958a8
   m_configObjects:
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: 744b813df90924c169af73489b8325de,
       type: 2}
@@ -29,4 +35,6 @@ EditorBuildSettings:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 58f40b12bbc864f3c96c6505a9a1e1e3,
       type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 6bb381a8ba31f114d9724357633b4625,
+      type: 2}
+    xr.sdk.mock-hmd.settings: {fileID: 11400000, guid: 0a51c656d5be2214d94874f378f4619f,
       type: 2}
